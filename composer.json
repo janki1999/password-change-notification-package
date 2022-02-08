@@ -1,0 +1,23 @@
+{
+    "name": "janki/password-change-notification",
+    "description": "It will send mail to user whenever its password changes",
+    "authors": [
+        {
+            "name": "janki1999",
+            "email": "78641274+janki1999@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Janki\\PasswordChangeNotification\\": "src/"
+        }
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "Janki\\PasswordChangeNotification\\PasswordChangeServiceProvider"
+          ]
+        }
+      }
+}
